@@ -31,17 +31,17 @@
     //3.设置根控制器
     
     //返回账号信息
-    HZAccount *account = [HZAccountTool account];
-    
-    if (account) {//上次已经登录成功过
+//    HZAccount *account = [HZAccountTool account];
+//    
+//    if (account) {//上次已经登录成功过
  
         [self.window switchRootViewController];
         
-    }else{
-        
-        self.window.rootViewController = [[HZOAuthViewController alloc]init];
-        
-    }
+//    }else{
+//        
+//        self.window.rootViewController = [[HZOAuthViewController alloc]init];
+//        
+//    }
     
     
     /**
